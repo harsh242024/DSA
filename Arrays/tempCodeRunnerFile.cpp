@@ -1,1 +1,1 @@
-find
+cout<<arr[1];

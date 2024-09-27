@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool find(int arr[10],int key, int size){
+bool find(int arr[10],int key, int size){           // parameters
     //linear search
     for(int i=0;i<size;i++){
         if(arr[i]==key){
@@ -19,7 +19,7 @@ int main(){
     int key;
     cout << "enter the number/key to be found : ";
     cin>>key;
-    if(find(arr,key,size)){
+    if(find(arr,key,size)){             //arguments
         cout<< "Found"<<endl;
     }
     else{
