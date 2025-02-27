@@ -2,7 +2,9 @@
 using namespace std;
 int main(){
     int num;
-    if( cin >> num){
-        cout << "Harsh";
+    cout<<"Enter a number : ";
+    cin>> num;
+    for(int i = 0; i<=num; i++){
+        cout << "Harsh \n";
     }
 }

@@ -2,13 +2,13 @@
 using namespace std;
 int main(){
     int n;
-    cout << "Enter size of square : "<<endl;
+    cout << "Enter a Number : "<< endl;
     cin>>n;
-    for (int row =0; row<n;row=row+1){
-        for (int col =0;col<n;col=col+1){
-            cout <<"    *   ";
+    for( int row = 0 ; row < n ; row++){
+        for( int col = 0 ; col< n; col++){
+            cout<<" * ";
         }
-        cout << endl << endl; 
+        cout << endl;
     }
 }
 //Square Pattern for n lines
