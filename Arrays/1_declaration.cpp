@@ -4,3 +4,4 @@ int main(){
     int arr[3];
     cout << "Array created successfully";
 }
+// commented
