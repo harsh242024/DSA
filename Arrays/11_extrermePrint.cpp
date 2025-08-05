@@ -7,7 +7,7 @@ int main(){
     int end=size -1;
     while(true){              // or while(start <= end)
         if(start> end){
-            break;
+            break;            // to break the while loop
         }    
         if(start == end ){
             cout<< arr[start]<<" ";
