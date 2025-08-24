@@ -15,5 +15,5 @@ int main(){
     cin>> n;
     int sum = evenSum(n);
     cout << "Sum of Even numbers upto N numbers is : "<<sum;
-    return 0; // will return the value
+    return 0; // will return value
 }
