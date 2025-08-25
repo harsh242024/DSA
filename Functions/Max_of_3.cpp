@@ -18,4 +18,4 @@ int main(){
     cin>>a>>b>>c;
     int MaximumNumber = findMax(a,b,c);
     cout << MaximumNumber;
-}
+} // the end
