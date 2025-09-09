@@ -11,4 +11,4 @@ int main(){
         }
     }
     cout<<"Min. NO. In the array is : "<<mini<<endl;
-} // minimum
+} // minimums
